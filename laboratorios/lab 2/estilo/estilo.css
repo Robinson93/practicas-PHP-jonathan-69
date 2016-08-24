@@ -1,0 +1,130 @@
+
+*{
+	padding: 0;
+	margin:0;
+}
+
+body {
+	background: black;
+	font-family: Helvetica;
+
+}
+figcaption{
+	background: white;
+	font-family: helvetica;
+	color: black;
+	margin-left: 20px;
+	padding: 20px;
+	border: 0.3px color: black;
+}
+img{
+	width: 100%;
+
+}
+
+p{
+	color:white;
+}
+nav	{
+	text-align: center;
+	padding: 20px;
+	background: rgba(60,60,150,0.8);
+	top:0;
+	position: fixed;
+	left: 0;
+	width: 100%;
+
+}
+.art1{
+	width: 40%;
+
+}
+.art2{
+	width: 50%;
+	background: white;
+}
+
+footer{
+	background: white;
+	color: black;
+	margin-top: 30px;
+	padding: 20px;
+	text-align: center;
+
+}
+
+nav ul li{
+	display: inline-block;
+	background: red;
+	padding: 10px;
+	margin-right: 12px;
+	border-radius: 8px;
+
+}
+input{
+	width: 100%;
+	margin-bottom: 8px;
+	height: 2em;
+}
+button{
+	height: 4em;
+	width: 100%;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+button:hover{
+	border: 3px solid blue;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+textarea{
+	width: 100%;
+}
+
+.enviar{
+
+}
+section{
+	color: white;
+}
+legend{
+
+}
+.formulario{
+	background: #F7B44B;
+	padding: 14px;
+	text-align: center;
+
+}
+main section article{
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+	padding: 10px;
+}
+
+a{
+	text-decoration: none;
+	font-size:18px;
+	padding: 12px;
+	color: white;
+}
+hgroup h2{
+text-shadow: #FF6B25 2px 2px 20px;
+	margin-top: 5px;
+}
+h1{
+	text-shadow: #0ff 2px 2px 20px;
+}
+
+header{
+	text-align: center;
+	padding: 40px;
+	background: black;
+	color: white;
+	margin-top: 85px;
+	border: 5px solid white;
+}
+

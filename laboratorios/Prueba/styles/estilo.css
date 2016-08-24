@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Arial;
+	background: #CACACA;
+	}
+
+nav ul li {
+	display: inline-block;
+	padding: 8px;
+	font-size: 1.5em;
+	font-family: Arial;
+	margin-right: 10px;
+	color: black;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+li:hover{  
+	border-bottom: 2px solid red;
+}
+
+nav{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+
+}
+
+header{
+	background: #9687A3;
+	margin-top: 25px;
+	margin-bottom: 40px;
+	text-align: center;
+	height: 500px;
+	font-family: Helvetica, Arial;
+}
+
+header h2 {
+	padding-top: 100px;
+	color: white
+}
+
+header h5{
+	color: white;
+	padding-top: 20px;
+	font-style: italic;
+
+}
+header img{
+	padding-top: 10px; 
+	max-width: 20%
+}
+
+header button{
+	background: red;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+	border: none; 
+}
+
+header button:hover{
+	border: 1px solid #FFFFFF;
+}
+
+section.sec1 {
+
+	padding: 30px;
+
+}
+
+section.sec1 h2{
+	text-align: center; 
+}
+
+hr{
+	margin-bottom: 20px;
+	border: 1px solid red;
+	width: 15%;
+	text-align: center;
+}
+
+
+
+article{
+	width: 40%;
+	display: inline-block;
+	padding: 40px;
+	vertical-align: top;
+}
+
+section.sec1 article.art1 img{
+ 
+ 	padding: 5px;
+
+}
+ 
+section.sec1 article.art2{
+
+	text-align: justify;
+
+}
+
+section.sec1 article.art2 button{
+	background: white;
+	color: black;
+	padding: 15px;
+	border: 1px solid red;
+	font-family: Helvetica, Arial;
+
+}
+section.sec1 article.art2 button:hover{
+
+	background: red;
+	color: white;
+	border:none;
+}
+
+img{
+ 	max-width: 100%
+ }
+
+ footer{
+	text-align: center;
+	background:pink;
+	padding: 20px;
+	color: blue;
+}
+@media all  and (max-width: 800px){
+	section{
+		width: 100%;
+}
+
+	li{
+		width: 100%;
+	  }
+}
